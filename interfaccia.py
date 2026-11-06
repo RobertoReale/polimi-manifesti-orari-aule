@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Interfaccia grafica di «PoliMi – orari, docenti e aule» (Manifesti degli Studi e sito Spazi).
+Interfaccia grafica di «PoliMi Manifesti – orari, docenti e aule» (Manifesti degli Studi e sito Spazi).
 Avvio: avvia.bat (Windows), ./avvia.sh (Linux/macOS) oppure  python avvia.py
 
 La finestra ha tre schede: le prime due sono i due passi d'uso, la terza le ricerche al volo.
@@ -2467,7 +2467,7 @@ def _chiave(v):
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("PoliMi – orari, docenti e aule")
+        self.title("PoliMi Manifesti – orari, docenti e aule")
         self.chiusura_richiesta = False
         self.protocol("WM_DELETE_WINDOW", self._chiudi)
         self._stile()

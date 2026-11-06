@@ -1,4 +1,4 @@
-# PoliMi – orari, docenti e aule
+# PoliMi Manifesti – orari, docenti e aule
 
 **Cosa fa:** raccoglie dai siti pubblici del Politecnico di Milano, i
 [Manifesti degli Studi](https://onlineservices.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?evn_DEFAULT=evento&lang=IT)
