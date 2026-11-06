@@ -81,7 +81,7 @@ class Client:
         s = getattr(self._locale, "s", None)
         if s is None:
             s = self._locale.s = requests.Session()
-            s.headers["User-Agent"] = "Mozilla/5.0 (polimi-scaglioni-orari)"
+            s.headers["User-Agent"] = "Mozilla/5.0 (polimi-orari-docenti-aule)"
         return s
 
     def _pausa(self, secondi):

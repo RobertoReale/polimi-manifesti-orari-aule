@@ -6,8 +6,8 @@ Come funziona il programma dall'interno. Per l'uso normale vedi il [README](READ
 
 Il programma legge le pagine pubbliche dei Manifesti degli Studi del PoliMi, ne ricava corsi → piani →
 insegnamenti → scaglioni → lezioni, salva tutto in un file JSON e da quel file costruisce tabelle da filtrare
-ed esportare. In più, `cerca.py` fa ricerche al volo (chi insegna cosa, schede dei docenti, occupazione delle
-aule…) senza passare dal file JSON.
+ed esportare. In più, `cerca.py` fa ricerche al volo (chi insegna cosa, schede dei docenti; dal sito Spazi
+occupazione, elenco e prenotazioni delle aule…) senza passare dal file JSON.
 
 ## I file e cosa fa ciascuno
 

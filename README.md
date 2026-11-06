@@ -1,19 +1,20 @@
-# PoliMi – scaglioni e orari
+# PoliMi – orari, docenti e aule
 
-**Cosa fa:** legge dal sito dei [Manifesti degli Studi del Politecnico di Milano](https://onlineservices.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?evn_DEFAULT=evento&lang=IT)
-gli insegnamenti dei corsi di studio che scegli, con i loro **scaglioni** (gli studenti divisi per iniziale
-del cognome, ognuno con i suoi docenti) e l'**orario delle lezioni** (giorni, ore, aule). Poi puoi
-filtrare i dati e salvarli in **Excel, CSV, pagina web** o come **orario settimanale** da stampare.
+**Cosa fa:** raccoglie dai siti pubblici del Politecnico di Milano, i
+[Manifesti degli Studi](https://onlineservices.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?evn_DEFAULT=evento&lang=IT)
+e **Spazi** (le aule), i dati della didattica, e ti permette di usarli in tre modi:
 
-**Come si usa, in due passi:**
-1. **Scarica** i dati dei corsi che ti interessano (scheda 1).
-2. **Esplora ed esporta**: consulta i dati, filtrali e salvali nel formato che preferisci (scheda 2).
+1. **Scarica** gli insegnamenti dei corsi di studio che scegli, con i loro **scaglioni** (gli studenti divisi
+   per iniziale del cognome, ognuno con i suoi docenti) e l'**orario delle lezioni** (giorni, ore, aule)
+   (scheda 1).
+2. **Esplora ed esporta** quei dati: filtrali e salvali in **Excel, CSV, pagina web** o come **orario
+   settimanale** da stampare (scheda 2).
+3. **Cerca al volo**, senza scaricare nulla prima (scheda 3): *chi insegna Geometria e Algebra Lineare a
+   Leonardo il giovedì 8:15–10:15 e il venerdì 10:15–13:15?*, *che orario ha questo docente?*, *quali aule
+   sono libere giovedì dalle 10:15 alle 12:15 con almeno 100 posti?*, *quali aule informatizzate ci sono a
+   Bovisa?*, *dove e quando sono prenotate le aule per un certo evento?*
 
-**Oppure, per una domanda precisa, cerca al volo** (scheda 3), senza scaricare nulla prima: *chi insegna
-Geometria e Algebra Lineare a Leonardo il giovedì 8:15–10:15 e il venerdì 10:15–13:15?*, *che orario ha
-questo docente?*, *quali aule sono libere giovedì dalle 10:15 alle 12:15?*
-
-Il programma legge soltanto il sito pubblico: non modifica nulla e non chiede credenziali.
+Il programma legge soltanto i siti pubblici: non modifica nulla e non chiede credenziali.
 Funziona su **Windows**, **Linux** e **macOS**.
 
 Nella finestra, il pulsante **❓ Guida** spiega tutto questo e le parole da conoscere. Se tieni il mouse

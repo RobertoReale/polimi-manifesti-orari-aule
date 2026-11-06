@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Interfaccia grafica dello scraper dei Manifesti degli Studi PoliMi.
+Interfaccia grafica di «PoliMi – orari, docenti e aule» (Manifesti degli Studi e sito Spazi).
 Avvio: avvia.bat (Windows), ./avvia.sh (Linux/macOS) oppure  python avvia.py
 
 La finestra ha tre schede: le prime due sono i due passi d'uso, la terza le ricerche al volo.
@@ -46,15 +46,19 @@ GRIGIO, ROSSO, VERDE = "#666", "#b00020", "#1b7f3b"
 
 COSA_FA_BREVE = ("Scarica dai Manifesti degli Studi PoliMi insegnamenti, scaglioni e orari, "
                  "e li salva in Excel, CSV, pagina web o come orario da stampare. "
-                 "Oppure cerca al volo chi insegna cosa, quando e dove.")
-COSA_FA = ("Scarica dal sito dei Manifesti degli Studi del Politecnico di Milano gli insegnamenti dei corsi "
-           "che scegli, con gli scaglioni (gli studenti divisi per iniziale del cognome, ognuno con i suoi "
-           "docenti) e l'orario delle lezioni. Poi puoi filtrarli e salvarli in Excel, CSV, pagina web "
-           "o come orario settimanale da stampare.")
+                 "Oppure cerca al volo chi insegna cosa, quando e dove, e quali aule sono libere.")
+COSA_FA = ("Raccoglie dai siti pubblici del Politecnico di Milano (Manifesti degli Studi e, per le aule, Spazi) "
+           "i dati della didattica, in tre modi:\n"
+           "1 · scarica gli insegnamenti dei corsi che scegli, con gli scaglioni (gli studenti divisi per "
+           "iniziale del cognome, ognuno con i suoi docenti) e l'orario delle lezioni;\n"
+           "2 · ti fa filtrare quei dati e salvarli in Excel, CSV, pagina web o come orario settimanale da "
+           "stampare;\n"
+           "3 · cerca al volo, senza scaricare nulla prima: chi insegna un insegnamento in certe fasce orarie, "
+           "la scheda di un docente, le aule libere o occupate, capienza e dotazioni delle aule, le prenotazioni.")
 
 # Testo della finestra «Guida»: (titolo, paragrafo)
 GUIDA = [
-    ("Cosa fa questo programma", COSA_FA + "\n\nI dati vengono letti dal sito ufficiale, pubblico: il programma "
+    ("Cosa fa questo programma", COSA_FA + "\n\nI dati vengono letti dai siti ufficiali, pubblici: il programma "
      "non modifica nulla e non richiede credenziali."),
     ("Come si usa, in due passi",
      "1 · Scheda «Scarica dati dal sito»: scegli anno accademico, sede, i corsi e cosa includere, poi premi "
@@ -2463,7 +2467,7 @@ def _chiave(v):
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("PoliMi – manifesti, orari e docenti")
+        self.title("PoliMi – orari, docenti e aule")
         self.chiusura_richiesta = False
         self.protocol("WM_DELETE_WINDOW", self._chiudi)
         self._stile()
