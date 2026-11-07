@@ -227,3 +227,6 @@ Ogni script mostra le opzioni disponibili con `--help` (anche `python cerca.py c
 ## Per chi modifica il codice
 Come funziona il programma, com'è fatto il sito, la struttura del file JSON e come fare le modifiche più
 comuni: vedi **[SVILUPPO.md](SVILUPPO.md)**.
+
+## Licenza
+[MIT](LICENSE): puoi usare, modificare e ridistribuire il codice liberamente, mantenendo l'avviso di copyright.
